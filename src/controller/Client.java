@@ -19,6 +19,7 @@ public class Client {
             System.out.println("All Accounts: "+bankService.getAllAccounts());
             bankService.withdrawFundsById(12,9320.0);
             System.out.println("All Accounts: "+bankService.getAllAccounts());
+            System.out.println("All Accounts: "+bankService.getAllAccounts());
 
         }catch (AccountCreationException e){
             System.out.println(e.getMessage());
